@@ -1,0 +1,122 @@
+
+/* Colors and Fonts */
+
+body{
+  background: #364F6B;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #343434;
+  font-size: 22px;
+}
+
+h2{
+  color: #343434;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+h4{
+  font-size: 14px;
+  font-weight: 200;
+  margin: 0px;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #1021ba;
+  text-decoration: none;
+}
+
+/* Page components */
+
+.page-container{
+  width: 500px;
+  margin: 30px auto;
+}
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.card-banner{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1em;
+  padding: 10px;
+}
+.card-banner img{
+  width: 440;
+}
+.img-circle{
+  border-radius: 50%;
+}
+.text-center{
+  text-align: center;
+}
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.btn-blue{
+  background-color: #364F6B;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-blue:hover{
+  background-color: #3FC1C9;
+  color: white;
+}
+
+/* Detailing */
+
+#img-profile{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+#movies{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img{
+  width: 150px;
+}
+#movies td{
+  padding: 10px;
+}
+
+
