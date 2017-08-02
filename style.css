@@ -1,4 +1,34 @@
 
+/* Sidebar */
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+#sidebar a {
+  text-decoration: none;
+  font-size: 30px;
+  color:#788188;
+}
+#sidebar a:hover {
+  color: white;
+}
+
+/* Page Main */
+
+#page-content {
+  margin-left: 160px;
+}
+
 /* Fonts */
 
 body{
@@ -20,8 +50,11 @@ h1{
   font-size: 22px;
 }
 
+h2, h3, h4{
+  color: #384047;
+}
 h2{
-  color: #343434;
+  color: #384047;
   font-size: 18px;
   font-weight: 300;
 }
@@ -40,6 +73,10 @@ p{
   text-align: justify;
 }
 
+ul{
+  padding: 0px;
+  list-style: none;
+}
 a{
   color: #ccc;
   text-decoration: none;
@@ -53,8 +90,8 @@ a:hover{
 /* Page components */
 
 .page-container{
-  width: 500px;
-  margin: 30px auto;
+  width: 700px;
+  margin: 20px auto;
 }
 .card{
   background: white;
@@ -66,7 +103,6 @@ a:hover{
 .card-banner{
   font-weight: 300;
   font-size: 15px;
-  line-height: 1em;
   padding: 10px;
 }
 .card-banner img{

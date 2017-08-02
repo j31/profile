@@ -10,134 +10,169 @@
 
 <body>
 
-  <div class="page-container">
-    <div class="card">
-      <img src="images/johnphoto.jpg" alt="John" id="img-profile" class="img-circle">
-      <h1>John Fish</h1>
-      <h2>Le Wagon Student</h2>
+  <!--  sidebar -->
+  <div id="sidebar">
+    <ul>
+      <li>
+        <a href="#top">
+          <i class="fa fa-arrow-circle-up"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#familyphoto">
+          <i class="fa fa-camera"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#lived">
+          <i class="fa fa-globe"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#favorite-movies">
+          <i class="fa fa-file-video-o"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#about">
+          <i class="fa fa-life-ring"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
 
-      <p>
-        This is a demonstration project to learn <strong>html and css</strong>.  If you're interested in learning full-stack web development in a creative atmosphere, check out Le Wagon.
-      </p>
+  <!--  page body -->
+  <div id="page-content">
+    <div class="page-container" id="top">
+      <div class="card">
+        <img src="images/johnphoto.jpg" alt="John" id="img-profile" class="img-circle">
+        <h1>John Fish</h1>
+        <h2>Le Wagon Student</h2>
 
-      <a href="http://lewagon.com/" class="btn-blue">Learn More</a>
-    </div>
+        <p>
+          This is a demonstration project to learn <strong>html and css</strong>.  If you're interested in learning full-stack web development in a creative atmosphere, check out Le Wagon.
+        </p>
 
-
-    <div class="card card-banner">
-      <h2>My Family</h2>
-      <img src="images/fishfamily.jpg" alt="fish family">
-    </div>
-
-
-    <div class="card">
-      <h2>Places I've Lived</h2>
-
-      <div class="card-banner">
-        <img src="images/berlin.jpg" alt="berlin">
-        <h3>Berlin</h3>
-
-        <img src="images/detroit.jpg" alt="detroit">
-        <h3>Detroit</h3>
-
-        <img src="images/sanfran.jpg" alt="san franscisco">
-        <h3>San Francisco</h3>
-
-        <img src="images/chicago.jpg" alt="chicago">
-        <h3>Chicago</h3>
-
-        <img src="images/melbourne.jpg" alt="melbourne">
-        <h3>Melbourne</h3>
-
-        <img src="images/london.jpg" alt="london">
-        <h3>London</h3>
-
-        <img src="images/paris.jpg" alt="paris">
-        <h3>Paris</h3>
+        <a href="http://lewagon.com/" class="btn-blue">Learn More</a>
       </div>
 
-    </div>
+
+      <div class="card card-banner" id="familyphoto">
+        <h2>My Family</h2>
+        <img src="images/fishfamily.jpg" alt="fish family">
+      </div>
 
 
-    <div class="card">
-      <h2>My Favorite movies</h2>
+      <div class="card" id="lived">
+        <h2>Places I've Lived</h2>
 
-      <table id="movies">
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/departed.jpg" alt="the departed movie poster">
-            </td>
-            <td>
-              <h3>The Departed</h3>
-              <p>South Boston cop Billy Costigan (Leonardo DiCaprio) goes under cover to infiltrate the organization of gangland chief Frank Costello (Jack Nicholson). As Billy gains the mobster's trust, a career criminal named Colin Sullivan (Matt Damon) infiltrates the police department and reports on its activities to his syndicate bosses. When both organizations learn they have a mole in their midst, Billy and Colin must figure out each other's identities to save their own lives.</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/manhattan.jpg" alt="manhattan movie poster">
-            </td>
-            <td>
-              <h3>Manhattan</h3>
-              <p>Director Woody Allen's love letter to New York City stars Allen as frustrated television writer Isaac Davis, a twice-divorced malcontent facing middle age alone after his wife, Jill (Meryl Streep), leaves him for a woman. Isaac is dating fresh-faced Tracy (Mariel Hemingway), a high school girl he knows is wrong for him, and begins to wonder if he and brainy writer Mary (Diane Keaton), the mistress of his best friend, Yale (Michael Murphy), might make a better couple.</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/planes.jpg" alt="planes, trains and automobiles movie poster">
-            </td>
-            <td>
-              <h3>Planes, Trains and Automobiles</h3>
-              <p>Easily excitable Neal Page (Steve Martin) is somewhat of a control freak. Trying to get home to Chicago to spend Thanksgiving with his wife (Laila Robins) and kids, his flight is rerouted to a distant city in Kansas because of a freak snowstorm, and his sanity begins to fray. Worse yet, he is forced to bunk up with talkative Del Griffith (John Candy), whom he finds extremely annoying. Together they must overcome the insanity of holiday travel to reach their intended destination.</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+        <div class="card-banner">
+          <img src="images/berlin.jpg" alt="berlin">
+          <h3>Berlin</h3>
 
-    <div class="card">
-      <h3>Social Media</h3>
-      <h4>(which I don't really do...)</h4>
-      <ul class="list-inline">
-        <li>
-          <a href="#" target="_blank">
-            <i class="fa fa-facebook"></i> Facebook
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-linkedin"></i> Linkedin
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-twitter"></i> Twitter
-          </a>
-        </li>
-      </ul>
-    </div>
+          <img src="images/detroit.jpg" alt="detroit">
+          <h3>Detroit</h3>
 
-    <div class="card">
-      <h2>About this page</h2>
-      This page has been coded during the <a href="http://lewagon.org/program" target="_blank">FullStack program @LeWagon</a>.
+          <img src="images/sanfran.jpg" alt="san franscisco">
+          <h3>San Francisco</h3>
 
-      <ul class="list-inline">
-       <li>
-         <a href="#">
-           <i class="fa fa-heart"></i>
-         </a>
-       </li>
-       <li>
-         <a href="#">
-           <i class="fa fa-share"></i>
-         </a>
-       </li>
-       <li>
-         <a href="#">
-           <i class="fa fa-star"></i>
-         </a>
-       </li>
-     </ul>
+          <img src="images/chicago.jpg" alt="chicago">
+          <h3>Chicago</h3>
+
+          <img src="images/melbourne.jpg" alt="melbourne">
+          <h3>Melbourne</h3>
+
+          <img src="images/london.jpg" alt="london">
+          <h3>London</h3>
+
+          <img src="images/paris.jpg" alt="paris">
+          <h3>Paris</h3>
+        </div>
+
+      </div>
+
+
+      <div class="card" id="favorite-movies">
+        <h2>My Favorite movies</h2>
+
+        <table id="movies">
+          <tbody>
+            <tr>
+              <td>
+                <img src="images/departed.jpg" alt="the departed movie poster">
+              </td>
+              <td>
+                <h3>The Departed</h3>
+                <p>South Boston cop Billy Costigan (Leonardo DiCaprio) goes under cover to infiltrate the organization of gangland chief Frank Costello (Jack Nicholson). As Billy gains the mobster's trust, a career criminal named Colin Sullivan (Matt Damon) infiltrates the police department and reports on its activities to his syndicate bosses. When both organizations learn they have a mole in their midst, Billy and Colin must figure out each other's identities to save their own lives.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/manhattan.jpg" alt="manhattan movie poster">
+              </td>
+              <td>
+                <h3>Manhattan</h3>
+                <p>Director Woody Allen's love letter to New York City stars Allen as frustrated television writer Isaac Davis, a twice-divorced malcontent facing middle age alone after his wife, Jill (Meryl Streep), leaves him for a woman. Isaac is dating fresh-faced Tracy (Mariel Hemingway), a high school girl he knows is wrong for him, and begins to wonder if he and brainy writer Mary (Diane Keaton), the mistress of his best friend, Yale (Michael Murphy), might make a better couple.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/planes.jpg" alt="planes, trains and automobiles movie poster">
+              </td>
+              <td>
+                <h3>Planes, Trains and Automobiles</h3>
+                <p>Easily excitable Neal Page (Steve Martin) is somewhat of a control freak. Trying to get home to Chicago to spend Thanksgiving with his wife (Laila Robins) and kids, his flight is rerouted to a distant city in Kansas because of a freak snowstorm, and his sanity begins to fray. Worse yet, he is forced to bunk up with talkative Del Griffith (John Candy), whom he finds extremely annoying. Together they must overcome the insanity of holiday travel to reach their intended destination.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card" id="about">
+        <h2>About this page</h2>
+        This page has been coded during the <a href="http://lewagon.org/program" target="_blank">FullStack program @LeWagon</a>.
+
+        <ul class="list-inline">
+         <li>
+           <a href="#">
+             <i class="fa fa-heart"></i>
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <i class="fa fa-share"></i>
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <i class="fa fa-star"></i>
+           </a>
+         </li>
+       </ul>
+     </div>
+
+      <div class="card">
+        <h3>Social Media</h3>
+        <h4>(which I don't really do...)</h4>
+        <ul class="list-inline">
+          <li>
+            <a href="#" target="_blank">
+              <i class="fa fa-facebook"></i> Facebook
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-linkedin"></i> Linkedin
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-twitter"></i> Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+
    </div>
  </div>
 </body>
